@@ -1,0 +1,238 @@
+/* all page */
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #3E4F59;
+}
+
+p,
+li {
+    font-family: 'Cabin', sans-serif;
+    color: #3E4F59;
+}
+.wrapper {
+    position: relative;
+}
+
+.background-info {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.65);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+/* header */
+.web-title {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9); /* Adjust background color as needed */
+    z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+.container {
+    display: flex;
+    padding: 15px 25%; /* Adjust padding as needed */
+}
+
+.subtitle {
+    background-color: rgba(99, 201, 242, 0.75);
+    width: 100px;
+    height: 75px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.main-title {
+    background-color: #739FD9;
+    width: 500px;
+    height: 150px;
+    line-height: 50px;
+    padding: 0 25px;
+}
+
+/* colors section */
+.colors-container {
+    background-image: url(./img/blue-pink1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 200px;
+}
+
+.colors-block,
+.fonts-block,
+.text-block {
+    display: flex;
+    margin: 35px 20% 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: 15px;
+    position: relative;
+}
+
+.colors-title,
+.fonts-title,
+.text-title {
+    background-color: rgba(114, 159, 216, 1);
+    width: 100%x;
+    height: 100px;
+    line-height: 10px;
+    text-align: center;
+    padding: 0 5px;
+}
+
+.color-item,
+.font-item,
+.text-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 20px;
+    text-align: left;
+}
+
+.color-square {
+    width: 200px;
+    height: 100px;
+    z-index: 1;
+}
+
+.color-text {
+    width: 100%; 
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: lefts;
+    background-color: rgba(255, 255, 255, 1);
+    border-top: none;
+}
+
+.color-item p {
+    margin: 5px 0;
+}
+
+.colors1 {
+    background-color: rgba(216, 95, 174, 1);
+}
+
+.colors1 .color-text {
+    border: 1px solid rgba(216, 95, 174, 1);
+    background-color: rgba(255, 255, 255, 1);
+    top: 100px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.colors2 {
+    background-color: rgba(216, 114, 181, 1);
+}
+
+.colors2 .color-text {
+    border: 1px solid rgba(216, 114, 181, 1);
+    background-color: rgba(255, 255, 255, 1);
+    top: 100px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.colors3 {
+    background-color: rgba(215, 169, 216, 1);
+}
+
+.colors3 .color-text {
+    border: 1px solid rgba(215, 169, 216, 1);
+    background-color: rgba(255, 255, 255, 1);
+    top: 100px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.colors4 {
+    background-color: rgba(222, 213, 242, 1);
+}
+
+.colors4 .color-text {
+    border: 1px solid rgba(222, 213, 242, 1);
+    background-color: rgba(255, 255, 255, 1);
+    top: 100px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.colors5 {
+    background-color: rgba(114, 159, 216, 1);
+}
+
+.colors5 .color-text {
+    border: 1px solid rgba(114, 159, 216, 1);
+    background-color: rgba(255, 255, 255, 1);
+    top: 100px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.colors6 {
+    background-color: rgba(62, 79, 89, 1);
+}
+
+.colors6 .color-text {
+    border: 1px solid rgba(62, 79, 89, 1);
+    background-color: rgba(255, 255, 255, 1);
+    top: 100px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+/* fonts section */
+.fonts-container {
+    display: flex;
+    background-image: url(./img/blue-pink3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+}
+
+.font1,
+.font2 {
+    width: calc(40% - 20px);
+    border: 3px solid rgba(216, 95, 174, 1);
+    padding: 20px;
+}
+
+.text-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.font2 h2,
+.font2 h3, 
+.font2 h4 {
+    font-family: 'Cabin', sans-serif;
+}
+
+/* Text Styles Section */
+.text-container {
+    display: flex;
+    background-image: url(./img/blue-pink4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+}
+
+.text-style-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-style {
+    width: calc(40% - 20px);
+    border: 3px solid rgba(216, 95, 174, 1);
+    padding: 20px;
+}
